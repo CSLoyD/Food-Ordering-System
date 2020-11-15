@@ -8,6 +8,19 @@
     tools:context="com.lakj.comspace.simpletextclient.Veg"
     android:background="#fff"
     >
+
+    <ScrollView
+        android:id="@+id/scrollViews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,11 +34,12 @@
 
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="wrap_content"
-        android:layout_height="430dp"
-        android:padding="15dp"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_alignParentEnd="true">
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:padding="15dp">
 
 
         <LinearLayout
@@ -42,15 +56,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Roti (₹20)"
+                    android:text="Roti (₱20)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -85,7 +98,7 @@
                         android:id="@+id/coffee_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="roti_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -105,15 +118,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Butter Roti(₹25)"
+                    android:text="Butter Roti(₱25)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
 
                 <LinearLayout
@@ -150,7 +162,7 @@
                         android:id="@+id/coldcoffee_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="butter_roti_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -169,15 +181,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Paneer Tikka(₹180)"
+                    android:text="Paneer Tikka(₱180)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -212,7 +223,7 @@
                         android:id="@+id/sandwich_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="paneer_tikka_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -230,15 +241,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Veg Pulao(₹200)"
+                    android:text="Veg Pulao(₱200)"
                     android:textColor="#000000"
                     android:textSize="15sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -273,7 +283,7 @@
                         android:id="@+id/fried_fish_dec"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="veg_pulao_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -291,15 +301,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Mutter Paneer(₹200)"
+                    android:text="Mutter Paneer(₱200)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -333,7 +342,7 @@
                         android:id="@+id/plainpizza_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="mutter_paneer_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -351,15 +360,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Veg Noodles(₹100)"
+                    android:text="Veg Noodles(₱100)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -395,7 +403,7 @@
                         android:id="@+id/cheesepizza_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="veg_noodles_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -413,15 +421,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Veg fried Rice(₹120)"
+                    android:text="Veg fried Rice(₱120)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -457,7 +464,7 @@
                         android:id="@+id/panpizza_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="veg_fried_rice_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -475,15 +482,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Veg Burger (₹40)"
+                    android:text="Veg Burger (₱40)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
 
@@ -519,7 +525,7 @@
                         android:id="@+id/vegburger_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="veg_burger_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -537,15 +543,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Veg Biryani(₹150)"
+                    android:text="Veg Biryani(₱150)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
 
@@ -580,7 +585,7 @@
                         android:id="@+id/chickenburger_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="veg_biryani_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -591,7 +596,6 @@
             </RelativeLayout>
 
 
-
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -600,15 +604,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
                     android:padding="10dp"
-                    android:text="Paneer Kofta(₹150)"
+                    android:text="Paneer Kofta(₱150)"
                     android:textColor="#000000"
                     android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:textStyle="bold" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -642,7 +645,7 @@
                         android:id="@+id/paneerroll_decid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#F44336"
                         android:onClick="paneer_kofta_dec"
                         android:text="-"
                         android:textColor="@android:color/black"
@@ -655,36 +658,54 @@
 
         </LinearLayout>
     </ScrollView>
-    <TextView
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:id="@+id/veg_total_id"
-        android:textColor="@android:color/black"
-        android:padding="10dp"
-        android:layout_below="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView"
-        android:layout_marginEnd="31dp" />
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:text="Main Menu"
-        android:textColor="#ffff"
-        android:background="#03A9F4"
-        android:onClick="main_menu"
-        android:layout_below="@+id/button9"
-        android:layout_centerHorizontal="true" />
 
-    <Button
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:text="Proceed"
-        android:background="#03A9F4"
-        android:textColor="#ffff"
-        android:onClick="fin_ord"
-        android:id="@+id/button9"
-        android:layout_marginStart="28dp"
-        android:layout_alignBottom="@+id/veg_total_id"
-        android:layout_alignParentStart="true" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/button9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="66dp"
+                android:background="#03A9F4"
+                android:onClick="main_menu"
+                android:text="Main Menu" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="66dp"
+                android:background="#009688"
+                android:onClick="fin_ord"
+                android:text="Proceed" />
+
+            <TextView
+                android:id="@+id/veg_total_id"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="90dp"
+                android:layout_marginBottom="50dp"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
 </RelativeLayout>

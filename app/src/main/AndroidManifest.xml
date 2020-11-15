@@ -28,7 +28,7 @@
         </activity>
         <activity
             android:name=".VirtualWaitress"
-            android:label="@string/title_activity_virtual_waitress" >
+            android:label="Food Ordering System" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

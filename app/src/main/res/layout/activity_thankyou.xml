@@ -31,7 +31,7 @@
     <Button
         android:onClick="main_menu"
         android:text="Menu"
-        android:background="#03A9F4"
+        android:background="#3F51B5"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:textColor="#fff"

@@ -39,8 +39,6 @@ id button
 id button1
 id button10
 id button11
-id button2
-id button3
 id button4
 id button5
 id button6
@@ -98,6 +96,7 @@ id panpizza_incid
 id personalp
 id plainpizza_decid
 id plainpizza_incid
+id pleaseText
 id roti_order
 id sandwich_decid
 id sandwich_incid

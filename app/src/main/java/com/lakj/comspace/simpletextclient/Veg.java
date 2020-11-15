@@ -228,7 +228,7 @@ public class Veg extends Activity {
 
         if (finalize_order.all_total > 0) {
         TextView tv = (TextView) findViewById(R.id.veg_total_id);
-        tv.setText(""+"₹"+ (finalize_order.all_total));
+        tv.setText(""+"₱"+ (finalize_order.all_total));
     }
     else{
             TextView tv = (TextView) findViewById(R.id.veg_total_id);

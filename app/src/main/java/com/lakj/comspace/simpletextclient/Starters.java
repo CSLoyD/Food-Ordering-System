@@ -218,7 +218,7 @@ public class Starters extends Activity {
 
         if (finalize_order.all_total > 0) {
         TextView tv = (TextView) findViewById(R.id.starters_tot_id);
-        tv.setText(""+"₹"+(finalize_order.all_total));
+        tv.setText(""+"₱"+(finalize_order.all_total));
             }
     else
         {

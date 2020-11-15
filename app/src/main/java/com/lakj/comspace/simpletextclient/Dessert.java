@@ -223,7 +223,7 @@ public class Dessert extends Activity {
         finalize_order.all_total = Starters.starters_total + Veg.total_veg + N_Veg.n_veg_total + Dessert.dessert_total;
         if (finalize_order.all_total > 0) {
         TextView tv = (TextView) findViewById(R.id.dessert_tot_id);
-        tv.setText("" + "₹" + (finalize_order.all_total));
+        tv.setText("" + "₱" + (finalize_order.all_total));
 
         }
         else{
