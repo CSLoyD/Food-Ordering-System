@@ -196,7 +196,7 @@ public class finalize_order extends Activity {
     public void tot_v(){
         all_total=all_total+old_all_total;
         TextView tv = (TextView) findViewById(R.id.tot_p);
-        tv.setText("total price:" + "₹" +(finalize_order.all_total));
+        tv.setText("total price:" + "Php" +(finalize_order.all_total));
     }
 
 
@@ -251,7 +251,7 @@ public class finalize_order extends Activity {
                         //Get the SmsManager instance and call the sendTextMessage method to send message
                         PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, nextact,0);
                             String msg = messsage.toString();
-                            String no = "09382303189";
+                            String no = "09451641253";
                             SmsManager sms=SmsManager.getDefault();
                             sms.sendTextMessage(no, null, msg, pi,null);
                             startActivity(nextact);
