@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android-Food-Ordering-System-master.iml" filepath="$PROJECT_DIR$/.idea/modules/Android-Food-Ordering-System-master.iml" group="Android-Food-Ordering-System-master" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Android-Food-Ordering-System-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Food-Ordering-System.iml" filepath="$PROJECT_DIR$/.idea/modules/Food-Ordering-System.iml" group="Food-Ordering-System" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Food-Ordering-System/app" />
     </modules>
   </component>
 </project>
