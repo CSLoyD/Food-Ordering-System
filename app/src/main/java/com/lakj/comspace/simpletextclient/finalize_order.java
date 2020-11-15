@@ -1,11 +1,13 @@
 package com.lakj.comspace.simpletextclient;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -241,18 +243,25 @@ public class finalize_order extends Activity {
                 public void onClick(DialogInterface dialog, int id) {
                       messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total)+"|"+personal_preferances;
                         ; // get the text message on the text field
-                   // messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total);
+                        // messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total);
                         SendMessage sendMessageTask = new SendMessage();
                         sendMessageTask.execute();
                         Intent nextact = new Intent((finalize_order) o, thankyou.class);
-                        startActivity(nextact);
+
+                        //Get the SmsManager instance and call the sendTextMessage method to send message
+                        PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, nextact,0);
+                            String msg = messsage.toString();
+                            String no = "09382303189";
+                            SmsManager sms=SmsManager.getDefault();
+                            sms.sendTextMessage(no, null, msg, pi,null);
+                            startActivity(nextact);
                 }
             })
             .setNegativeButton("No", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     dialog.cancel();
                 }
-            });
+    });
     AlertDialog alert = builder.create();
     alert.show();
 }
