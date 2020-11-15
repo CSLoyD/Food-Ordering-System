@@ -1,132 +1,132 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
 	package
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:3:5-49
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.SEND_SMS
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:7:5-66
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:7:5-66
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:7:22-64
 uses-sdk
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:5-47
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:5-47
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:5-47
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:20:5-43
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:5-47
-INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:5-47
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-47
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-47
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-47
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:20:5-43
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-47
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-47
 	android:targetSdkVersion
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:15-44
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:15-44
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:9:5-47
-		INJECTED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-47
+		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:11:5-67
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:11:22-64
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:11:22-64
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:13:5-14:60
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:13:5-14:60
 	name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:14:9-57
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:14:9-57
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:13:30-86
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:13:30-86
 android:uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:15:5-16:54
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:15:5-16:54
 	name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:16:9-51
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:16:9-51
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:15:30-80
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:15:30-80
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:17:5-18:59
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:17:5-18:59
 	name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:18:9-56
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:18:9-56
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:17:30-85
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:17:30-85
 application
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:20:5-57:19
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:20:5-57:19
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:23:9-41
 	android:icon
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:22:9-41
 	android:allowBackup
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:21:9-35
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:24:9-56
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:24:9-56
 activity#com.lakj.comspace.simpletextclient.SlimpleTextClientActivity
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:25:9-28:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:25:9-28:20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:27:13-45
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:26:13-54
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:26:13-54
 activity#com.lakj.comspace.simpletextclient.VirtualWaitress
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:29:9-37:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:31:13-68
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:31:13-68
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:30:13-44
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:30:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:33:17-69
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:33:25-66
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:35:17-77
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:35:27-74
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:35:27-74
 activity#com.lakj.comspace.simpletextclient.Order_Type
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:38:9-39:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:38:9-39:20
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:38:19-45
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:38:19-45
 activity#com.lakj.comspace.simpletextclient.Starters
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:40:9-41:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:40:9-41:20
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:40:19-43
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:40:19-43
 activity#com.lakj.comspace.simpletextclient.Veg
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:42:9-43:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:42:9-43:20
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:42:19-38
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:42:19-38
 activity#com.lakj.comspace.simpletextclient.N_Veg
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:44:9-45:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:44:9-45:20
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:44:19-40
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:44:19-40
 activity#com.lakj.comspace.simpletextclient.Dessert
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:46:9-47:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:46:9-47:20
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:46:19-42
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:46:19-42
 activity#com.lakj.comspace.simpletextclient.finalize_order
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:49:9-52:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:49:9-52:20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:51:13-66
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:51:13-66
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:50:13-43
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:50:13-43
 activity#com.lakj.comspace.simpletextclient.thankyou
-ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:53:9-56:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:53:9-56:20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:55:13-60
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:55:13-60
 	android:name
-		ADDED from C:\Users\Keonna\Documents\Projects\Ordering system\app\src\main\AndroidManifest.xml:54:13-37
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:54:13-37
