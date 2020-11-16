@@ -24,6 +24,10 @@
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-mdpi\\dessert_l.png"
     },
     {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable_innerbg.jpg.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable\\innerbg.jpg"
+    },
+    {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
     },
@@ -124,12 +128,12 @@
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-hdpi\\vegvectrr.png"
     },
     {
-        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_veg_vvvthali.jpg.flat",
-        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-xxhdpi\\veg_vvvthali.jpg"
-    },
-    {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_n_veg.jpg.flat",
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-xxhdpi\\n_veg.jpg"
+    },
+    {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_veg_vvvthali.jpg.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-xxhdpi\\veg_vvvthali.jpg"
     },
     {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_finalize_order.xml.flat",
@@ -152,12 +156,12 @@
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-mdpi\\str.jpg"
     },
     {
-        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu.png.flat",
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-xhdpi\\menu.png"
+    },
+    {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -208,12 +212,12 @@
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_str_blur.jpg.flat",
-        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-xxhdpi\\str_blur.jpg"
-    },
-    {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\menu_slimple_text_client.xml.flat",
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\menu\\slimple_text_client.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_str_blur.jpg.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-xxhdpi\\str_blur.jpg"
     },
     {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_veg_vvvthali.jpg.flat",
@@ -252,12 +256,12 @@
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-mdpi\\soup_l.png"
     },
     {
-        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_non_veg.png.flat",
-        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-mdpi\\non_veg.png"
-    },
-    {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_non_veg.png.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-mdpi\\non_veg.png"
     },
     {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dessert_blur.jpg.flat",
@@ -368,16 +372,24 @@
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\anim\\push_up_out.xml"
     },
     {
-        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_slimple_text_client.xml.flat",
-        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\layout\\activity_slimple_text_client.xml"
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu.png.flat",
         "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-hdpi\\menu.png"
     },
     {
-        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_slimple_text_client.xml.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\layout\\activity_slimple_text_client.xml"
+    },
+    {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menubg.jpg.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable\\menubg.jpg"
+    },
+    {
+        "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\drawable_introbg.jpg.flat",
+        "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\drawable\\introbg.jpg"
     },
     {
         "merged": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
