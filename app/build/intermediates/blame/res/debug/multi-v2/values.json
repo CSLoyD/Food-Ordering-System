@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "4,3,5,7,8,6",
                         "startColumns": "4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "6,15",
                         "startColumns": "4,4",
@@ -40,7 +40,7 @@
                     }
                 },
                 {
-                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "3,4",
                         "startColumns": "4,4",
