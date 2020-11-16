@@ -1,52 +1,47 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "192,525",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "484,682"
-                    },
-                    "to": {
-                        "startLines": "10,17",
-                        "startColumns": "4,4",
-                        "startOffsets": "541,832",
-                        "endLines": "16,19",
-                        "endColumns": "12,12",
-                        "endOffsets": "827,987"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,5,7,8,6",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "116,59,170,301,375,224",
-                        "endColumns": "52,55,52,72,60,75",
-                        "endOffsets": "164,110,218,369,431,295"
+                        "startLines": "-1,-1,-1,-1,8,-1",
+                        "startColumns": "-1,-1,-1,-1,4,-1",
+                        "startOffsets": "-1,-1,-1,-1,375,-1",
+                        "endColumns": "-1,-1,-1,-1,58,-1",
+                        "endOffsets": "-1,-1,-1,-1,429,-1"
                     },
                     "to": {
                         "startLines": "4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "169,222,278,331,404,465",
-                        "endColumns": "52,55,52,72,60,75",
-                        "endOffsets": "217,273,326,399,460,536"
+                        "startOffsets": "169,222,278,331,404,463",
+                        "endColumns": "52,55,52,72,58,75",
+                        "endOffsets": "217,273,326,399,458,534"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
-                        "startLines": "3,4",
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "10,13",
                         "startColumns": "4,4",
-                        "startOffsets": "92,151",
-                        "endColumns": "57,55",
-                        "endOffsets": "145,202"
+                        "startOffsets": "539,622",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "617,689"
+                    }
+                },
+                {
+                    "source": "D:\\Projects\\Git Repos\\Food-Ordering-System\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
                     },
                     "to": {
                         "startLines": "2,3",

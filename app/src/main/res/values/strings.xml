@@ -6,6 +6,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_virtual_waitress">VirtualWaitress</string>
     <string name="title_activity_finalize_order">finalize_order</string>
-    <string name="title_activity_thankyou">thankyou</string>
+    <string name="title_activity_thankyou">Thanks</string>
 
 </resources>
