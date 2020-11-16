@@ -1,13 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
-INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
+INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
 		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml
@@ -65,7 +65,7 @@ ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:17:30-85
 application
-ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:20:5-57:19
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:20:5-56:19
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Loyd\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
 	android:label
@@ -119,14 +119,14 @@ ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManife
 	android:name
 		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:46:19-42
 activity#com.lakj.comspace.simpletextclient.finalize_order
-ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:49:9-52:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:48:9-51:20
 	android:label
-		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:51:13-66
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:50:13-66
 	android:name
-		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:50:13-43
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:49:13-43
 activity#com.lakj.comspace.simpletextclient.thankyou
-ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:53:9-56:20
+ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:52:9-55:20
 	android:label
-		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:55:13-60
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:54:13-60
 	android:name
-		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:54:13-37
+		ADDED from D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:53:13-37
