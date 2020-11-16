@@ -6,7 +6,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.lakj.comspace.simpletextclient.Veg"
-    android:background="#fff"
+    android:background="@drawable/innerBG"
     >
 
     <ScrollView
@@ -25,9 +25,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Veg Items"
-        android:textColor="#000000"
+        android:textColor="#fff"
         android:textStyle="bold"
-        android:textSize="25sp"
+        android:textSize="40sp"
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -61,9 +61,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Roti (₱20)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                    />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -76,12 +76,12 @@
                         android:id="@+id/coffee_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="roti_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
                         android:id="@+id/roti_order"
@@ -91,7 +91,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -101,7 +101,7 @@
                         android:background="#F44336"
                         android:onClick="roti_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -123,9 +123,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Butter Roti(₱25)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                     />
 
 
                 <LinearLayout
@@ -140,12 +140,12 @@
                         android:id="@+id/coldcoffee_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="butter_roti_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
                         android:id="@+id/butter_roti_order"
@@ -155,7 +155,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -165,7 +165,7 @@
                         android:background="#F44336"
                         android:onClick="butter_roti_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -186,9 +186,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Paneer Tikka(₱180)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                     />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -201,12 +201,12 @@
                         android:id="@+id/sandwich_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="paneer_tikka_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
                         android:id="@+id/paneer_tikka_order"
@@ -216,7 +216,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -226,7 +226,7 @@
                         android:background="#F44336"
                         android:onClick="paneer_tikka_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -246,9 +246,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Veg Pulao(₱200)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="15sp"
-                    android:textStyle="bold" />
+                     />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -261,12 +261,12 @@
                         android:id="@+id/cheesesandwich_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="veg_pulao_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
                         android:id="@+id/veg_pulao_order"
@@ -276,7 +276,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -286,7 +286,7 @@
                         android:background="#F44336"
                         android:onClick="veg_pulao_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -306,9 +306,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Mutter Paneer(₱200)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                     />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -320,12 +320,12 @@
                         android:id="@+id/plainpizza_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="mutter_paneer_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
                         android:id="@+id/mutter_paneer_order"
@@ -335,7 +335,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -345,7 +345,7 @@
                         android:background="#F44336"
                         android:onClick="mutter_paneer_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -365,9 +365,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Veg Noodles(₱100)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                    />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -381,12 +381,12 @@
                         android:id="@+id/cheesepizza_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="veg_noodles_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
                         android:id="@+id/veg_noodles_order"
@@ -396,7 +396,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -406,7 +406,7 @@
                         android:background="#F44336"
                         android:onClick="veg_noodles_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -426,9 +426,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Veg fried Rice(₱120)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                     />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -441,12 +441,12 @@
                         android:id="@+id/panpizza_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="veg_fried_rice_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
 
@@ -457,7 +457,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -467,7 +467,7 @@
                         android:background="#F44336"
                         android:onClick="veg_fried_rice_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -487,9 +487,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Veg Burger (₱40)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                     />
 
                 <LinearLayout
 
@@ -502,12 +502,12 @@
                         android:id="@+id/vegburger_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="veg_burger_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
 
@@ -518,7 +518,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -528,7 +528,7 @@
                         android:background="#F44336"
                         android:onClick="veg_burger_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -548,9 +548,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Veg Biryani(₱150)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                    />
 
                 <LinearLayout
 
@@ -563,12 +563,12 @@
                         android:id="@+id/chickenburger_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="veg_biryani_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                         />
 
                     <TextView
                         android:id="@+id/veg_biryani_order"
@@ -578,7 +578,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -588,7 +588,7 @@
                         android:background="#F44336"
                         android:onClick="veg_biryani_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -609,9 +609,9 @@
                     android:layout_alignParentBottom="true"
                     android:padding="10dp"
                     android:text="Paneer Kofta(₱150)"
-                    android:textColor="#000000"
+                    android:textColor="#fff"
                     android:textSize="14sp"
-                    android:textStyle="bold" />
+                    />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -623,12 +623,12 @@
                         android:id="@+id/paneerroll_incid"
                         android:layout_width="40dp"
                         android:layout_height="30dp"
-                        android:background="#03A9F4"
+                        android:background="#00E676"
                         android:onClick="paneer_kofta_inc"
                         android:text="+"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
-                        android:textStyle="bold" />
+                        />
 
                     <TextView
                         android:id="@+id/paneer_kofta_order"
@@ -638,7 +638,7 @@
                         android:paddingBottom="10dp"
                         android:text="__"
                         android:textAlignment="center"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp" />
 
                     <Button
@@ -648,7 +648,7 @@
                         android:background="#F44336"
                         android:onClick="paneer_kofta_dec"
                         android:text="-"
-                        android:textColor="@android:color/black"
+                        android:textColor="#fff"
                         android:textSize="25sp"
                         android:textStyle="bold" />
 
@@ -683,7 +683,7 @@
                 android:layout_marginStart="66dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="66dp"
-                android:background="#009688"
+                android:background="#1DE9B6"
                 android:onClick="fin_ord"
                 android:text="Proceed" />
 
@@ -698,7 +698,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="90dp"
                 android:layout_marginBottom="50dp"
-                android:textColor="#000"
+                android:textColor="#fff"
                 android:textAlignment="center"
                 android:gravity="center"
                 android:text=""

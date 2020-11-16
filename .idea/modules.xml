@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Food-Ordering-System.iml" filepath="$PROJECT_DIR$/.idea/modules/Food-Ordering-System.iml" group="Food-Ordering-System" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ordering_system.iml" filepath="$PROJECT_DIR$/.idea/modules/Ordering_system.iml" group="Ordering_system" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Ordering system/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SYSTEM-Food-Ordering-System.iml" filepath="$PROJECT_DIR$/.idea/modules/SYSTEM-Food-Ordering-System.iml" group="Food-Ordering-System" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Food-Ordering-System/app" />
     </modules>
   </component>
 </project>

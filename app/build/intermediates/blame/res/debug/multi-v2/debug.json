@@ -1,68 +1,32 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "outputFile": "D:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
                     "from": {
-                        "startLines": "6,15",
-                        "startColumns": "4,4",
-                        "startOffsets": "192,525",
-                        "endLines": "12,17",
-                        "endColumns": "12,12",
-                        "endOffsets": "484,682"
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "57",
+                        "endOffsets": "348"
                     },
                     "to": {
-                        "startLines": "10,17",
-                        "startColumns": "4,4",
-                        "startOffsets": "541,832",
-                        "endLines": "16,19",
-                        "endColumns": "12,12",
-                        "endOffsets": "827,987"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "4,3,5,7,8,6",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "116,59,170,301,375,224",
-                        "endColumns": "52,55,52,72,60,75",
-                        "endOffsets": "164,110,218,369,431,295"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "169,222,278,331,404,465",
-                        "endColumns": "52,55,52,72,60,75",
-                        "endOffsets": "217,273,326,399,460,536"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "3,4",
-                        "startColumns": "4,4",
-                        "startOffsets": "92,151",
-                        "endColumns": "57,55",
-                        "endOffsets": "145,202"
-                    },
-                    "to": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,113",
-                        "endColumns": "57,55",
-                        "endOffsets": "108,164"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
                     }
                 }
             ]
         },
         {
-            "outputFile": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "outputFile": "D:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",
                         "startColumns": "4",
@@ -83,10 +47,68 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "outputFile": "D:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,7,8,6",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "116,59,170,301,375,224",
+                        "endColumns": "52,55,52,72,60,75",
+                        "endOffsets": "164,110,218,369,431,295"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "169,222,278,331,404,465",
+                        "endColumns": "52,55,52,72,60,75",
+                        "endOffsets": "217,273,326,399,460,536"
+                    }
+                },
+                {
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "192,525",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "484,682"
+                    },
+                    "to": {
+                        "startLines": "10,17",
+                        "startColumns": "4,4",
+                        "startOffsets": "541,832",
+                        "endLines": "16,19",
+                        "endColumns": "12,12",
+                        "endOffsets": "827,987"
+                    }
+                },
+                {
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,113",
+                        "endColumns": "57,55",
+                        "endOffsets": "108,164"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
@@ -105,10 +127,10 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
+            "outputFile": "D:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\res\\merged\\debug\\values-v11_values-v11.arsc.flat",
             "map": [
                 {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "source": "D:\\SYSTEM\\Food-Ordering-System\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "6",
                         "startColumns": "4",
@@ -124,28 +146,6 @@
                         "endLines": "4",
                         "endColumns": "12",
                         "endOffsets": "187"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\res\\merged\\debug\\values-w820dp-v13_values-w820dp-v13.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\src\\main\\res\\values-w820dp\\dimens.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "295",
-                        "endColumns": "57",
-                        "endOffsets": "348"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "57",
-                        "endOffsets": "108"
                     }
                 }
             ]

@@ -1,4 +1,7 @@
-#Sun Nov 15 17:31:09 CST 2020
+#Mon Nov 16 07:49:36 SGT 2020
 base.0=C\:\\Users\\Keonna\\Documents\\Projects\\Ordering system\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=D\:\\SYSTEM\\Food-Ordering-System\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
