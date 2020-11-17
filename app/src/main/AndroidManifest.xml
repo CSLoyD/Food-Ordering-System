@@ -29,13 +29,14 @@
         <activity
             android:name=".VirtualWaitress"
             android:label="Food Ordering System" >
+
+        </activity>
+        <activity android:name=".Order_Type" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".Order_Type" >
         </activity>
         <activity android:name=".Starters" >
         </activity>
