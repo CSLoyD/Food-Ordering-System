@@ -2,10 +2,7 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <device id="pixel_2" />
-        <device id="pixel_3" />
-      </config>
+      <config />
     </shared>
   </component>
   <component name="AndroidLogFilters">
@@ -13,34 +10,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac243a7b-807c-4eea-a2ed-6351d2f4ce34" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/lakj/comspace/simpletextclient/editPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/Git Repos-Food-Ordering-System.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/androidResources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/lakj/comspace/simpletextclient/finalize_order$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/classes/com/lakj/comspace/simpletextclient/finalize_order$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/processed_res/debug/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/lakj/comspace/simpletextclient/finalize_order$2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/debug/out/com/lakj/comspace/simpletextclient/finalize_order$2.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lakj/comspace/simpletextclient/finalize_order.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lakj/comspace/simpletextclient/finalize_order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/lakj/comspace/simpletextclient/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/lakj/comspace/simpletextclient/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_finalize_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_finalize_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_n__veg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_n__veg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_order__type.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_order__type.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_thankyou.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_thankyou.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_veg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_veg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_virtual_waitress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_virtual_waitress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="emulator-5554" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="192.168.254.101:5555" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -49,12 +43,7 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
+        <projects_view />
       </state>
     </system>
   </component>
@@ -224,11 +213,11 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="410" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.738@0.0.1360.738" timestamp="1605535876547" />
-    <state x="72" y="0" width="1288" height="738" key="CommitChangelistDialog2" timestamp="1605536126448">
-      <screen x="0" y="0" width="1360" height="738" />
+    <state x="-1369" y="-22" width="1288" height="738" key="CommitChangelistDialog2" timestamp="1605699893078">
+      <screen x="-1920" y="-141" width="1920" height="1050" />
     </state>
     <state x="72" y="0" width="1288" height="738" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1605536126448" />
-    <state x="-1369" y="-22" key="CommitChangelistDialog2/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605428717904" />
+    <state x="-1369" y="-22" key="CommitChangelistDialog2/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605699893078" />
     <state x="460" y="124" key="FileChooserDialogImpl" timestamp="1605536550051">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -274,13 +263,22 @@
     </state>
     <state x="550" y="213" key="chooseDestDirectoryDialog/0.0.1360.738@0.0.1360.738" timestamp="1605535615671" />
     <state x="-1144" y="162" key="chooseDestDirectoryDialog/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605432796885" />
-    <state x="92" y="92" width="1176" height="554" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1605399906437">
-      <screen x="0" y="0" width="1360" height="738" />
+    <state x="-1790" y="-10" width="1661" height="789" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1605546545559">
+      <screen x="-1920" y="-141" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1176" height="554" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1360.738@0.0.1360.738" timestamp="1605399906437" />
+    <state x="-1790" y="-10" width="1661" height="789" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605546545559" />
+    <state x="-1264" y="208" key="com.intellij.ide.util.TipDialog" timestamp="1605696674087">
+      <screen x="-1920" y="-141" width="1920" height="1050" />
+    </state>
+    <state x="-1264" y="208" key="com.intellij.ide.util.TipDialog/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605696674087" />
     <state x="489" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605534572950">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="489" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.738@0.0.1360.738" timestamp="1605534572950" />
+    <state x="-1266" y="175" key="git4idea.merge.GitPullDialog" timestamp="1605624930192">
+      <screen x="-1920" y="-141" width="1920" height="1050" />
+    </state>
+    <state x="-1266" y="175" key="git4idea.merge.GitPullDialog/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605624930192" />
   </component>
 </project>

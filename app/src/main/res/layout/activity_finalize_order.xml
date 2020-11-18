@@ -8,7 +8,17 @@
     tools:context="com.lakj.comspace.simpletextclient.finalize_order"
     android:background="@drawable/innerbg"
     >
+    <ScrollView
+        android:id="@+id/scrollViews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
     <TextView
         android:layout_width="250sp"
@@ -44,18 +54,18 @@
         android:layout_below="@+id/order_final"
         android:layout_alignStart="@+id/order_final" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button4"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginBottom="78dp"
-        android:layout_toStartOf="@+id/personalp"
-        android:padding="5dp"
-        android:text="Personal Preferances:"
-        android:textColor="#fff"
-        android:textSize="12sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/order_final"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="-1dp"
+                android:layout_toStartOf="@+id/personalp"
+                android:padding="5dp"
+                android:text="Personal Preferances:"
+                android:textColor="#fff"
+                android:textSize="12sp" />
 
     <EditText
         android:layout_width="150dp"
@@ -67,50 +77,59 @@
         android:layout_alignBottom="@+id/textView11"
         android:layout_alignEnd="@+id/tv" />
 
-    <TextView
-        android:id="@+id/tv"
-        android:layout_width="250sp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button4"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="24dp"
-        android:padding="4dp"
-        android:text="Please click Send Order if you want to confirm the following order "
-        android:textColor="#ffff"
-        android:textSize="11sp" />
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="250sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView11"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:padding="4dp"
+                android:text="Please click Send Order if you want to confirm the following order "
+                android:textColor="#ffff"
+                android:textSize="11sp" />
 
-    <TextView
-        android:layout_width="270sp"
-        android:textColor="#fff"
-        android:layout_height="wrap_content"
-        android:text="Please press Send order , If you want to alter your order press main menu"
-        android:textSize="11sp"
-        android:id="@+id/textView6"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/button4"
-        android:layout_marginBottom="66dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="270sp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="50dp"
+                android:text="Please press Send order , If you want to alter your order press main menu"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginBottom="40dp"
+                android:textSize="11sp" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:layout_above="@+id/textView6"
-        android:layout_alignStart="@+id/tv"
-        android:layout_marginStart="0dp"
-        android:layout_marginBottom="35dp"
-        android:background="#03A9F4"
-        android:textColor="#ffff"
-        android:onClick="main_menu"
-        android:text="Main Menu" />
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv"
+                android:layout_alignStart="@+id/tv"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="15dp"
+                android:background="#03A9F4"
+                android:onClick="main_menu"
+                android:text="Main Menu"
+                android:textColor="#ffff" />
 
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:text="send order"
-        android:background="#1DE9B6"
-        android:textColor="#ffff"
-        android:onClick="send_ord"
-        android:id="@+id/button5"
-        android:layout_alignTop="@+id/button4"
-        android:layout_alignEnd="@+id/order_final" />
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tv"
+                android:layout_alignEnd="@+id/order_final"
+                android:layout_marginTop="15dp"
+                android:background="#1DE9B6"
+                android:onClick="send_ord"
+                android:text="send order"
+                android:textColor="#ffff" />
+        </RelativeLayout>
+
+    </ScrollView>
 </RelativeLayout>
