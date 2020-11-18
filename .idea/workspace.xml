@@ -213,11 +213,11 @@
       <screen x="0" y="0" width="1360" height="738" />
     </state>
     <state x="410" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1360.738@0.0.1360.738" timestamp="1605535876547" />
-    <state x="-1369" y="-22" width="1288" height="738" key="CommitChangelistDialog2" timestamp="1605699893078">
+    <state x="-1369" y="-22" width="1288" height="738" key="CommitChangelistDialog2" timestamp="1605699917924">
       <screen x="-1920" y="-141" width="1920" height="1050" />
     </state>
     <state x="72" y="0" width="1288" height="738" key="CommitChangelistDialog2/0.0.1360.738@0.0.1360.738" timestamp="1605536126448" />
-    <state x="-1369" y="-22" key="CommitChangelistDialog2/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605699893078" />
+    <state x="-1369" y="-22" key="CommitChangelistDialog2/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605699917924" />
     <state x="460" y="124" key="FileChooserDialogImpl" timestamp="1605536550051">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
@@ -253,11 +253,15 @@
     </state>
     <state x="112" y="23" key="SettingsEditor/0.0.1360.738@0.0.1360.738" timestamp="1605534322676" />
     <state x="-1762" y="-25" key="SettingsEditor/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605434159161" />
-    <state x="391" y="181" key="Vcs.Push.Dialog.v2" timestamp="1605536130777">
-      <screen x="0" y="0" width="1360" height="738" />
+    <state x="-1173" y="100" key="VCS.ChangeListViewerDialog" timestamp="1605699956189">
+      <screen x="-1920" y="-141" width="1920" height="1050" />
+    </state>
+    <state x="-1173" y="100" key="VCS.ChangeListViewerDialog/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605699956189" />
+    <state x="-1368" y="117" key="Vcs.Push.Dialog.v2" timestamp="1605699933698">
+      <screen x="-1920" y="-141" width="1920" height="1050" />
     </state>
     <state x="391" y="181" key="Vcs.Push.Dialog.v2/0.0.1360.738@0.0.1360.738" timestamp="1605536130777" />
-    <state x="-1368" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605424385383" />
+    <state x="-1368" y="117" key="Vcs.Push.Dialog.v2/0.0.1366.738/-1920.-141.1920.1050@-1920.-141.1920.1050" timestamp="1605699933698" />
     <state x="550" y="213" key="chooseDestDirectoryDialog" timestamp="1605535615671">
       <screen x="0" y="0" width="1360" height="738" />
     </state>
