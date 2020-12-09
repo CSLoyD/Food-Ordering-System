@@ -247,17 +247,17 @@ public class finalize_order extends Activity {
                               + "\nAdditional Notes" +personal_preferences;
                         ; // get the text message on the text field
                         // messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total);
-                        SendMessage sendMessageTask = new SendMessage();
-                        sendMessageTask.execute();
-                        Intent nextact = new Intent((finalize_order) o, thankyou.class);
-
+                        //SendMessage sendMessageTask = new SendMessage();
+                        //sendMessageTask.execute();
                         //Get the SmsManager instance and call the sendTextMessage method to send message
+                        Intent nextact = new Intent((finalize_order) o, thankyou.class);
                         PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, nextact,0);
-                            String msg = messsage;
-                            String no = new editPhoneNumber().num;
-                            SmsManager sms=SmsManager.getDefault();
-                            sms.sendTextMessage(no, null, msg, pi,null);
-                            startActivity(nextact);
+                        String msg = messsage;
+                        String no = new editPhoneNumber().num;
+                        SmsManager sms=SmsManager.getDefault();
+                        sms.sendTextMessage(no, null, msg, pi,null);
+                        startActivity(nextact);
+                        finish();
                 }
             })
             .setNegativeButton("No", new DialogInterface.OnClickListener() {

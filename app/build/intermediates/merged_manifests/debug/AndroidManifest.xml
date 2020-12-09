@@ -25,6 +25,7 @@
         android:debuggable="true"
         android:icon="@mipmap/logo"
         android:label="Car Rental System"
+        android:testOnly="true"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
             android:name="com.lakj.comspace.simpletextclient.SlimpleTextClientActivity"
