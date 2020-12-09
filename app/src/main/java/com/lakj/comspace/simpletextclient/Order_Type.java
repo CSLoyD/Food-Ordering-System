@@ -24,7 +24,7 @@ public class Order_Type extends Activity {
         finalize_order.all_total=Starters.starters_total+Veg.total_veg+N_Veg.n_veg_total+Dessert.dessert_total;
         TextView tv = (TextView) findViewById(R.id.total_on_mm);
         if(finalize_order.all_total >0){
-        tv.setText(""+"₹" + finalize_order.all_total);}
+        tv.setText(""+"₱" + finalize_order.all_total);}
     }
     public void starter(View view)
     {
@@ -63,7 +63,7 @@ public class Order_Type extends Activity {
             {
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage("Are you sure you don't want to place another order?")
+                builder.setMessage("Are you sure you would to rent this car?")
                         .setCancelable(false)
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
@@ -84,7 +84,7 @@ public class Order_Type extends Activity {
 
             else{
                 Toast.makeText(getApplicationContext(),
-                        "Please select your order", Toast.LENGTH_SHORT).show();
+                        "Please select a car", Toast.LENGTH_SHORT).show();
             }
 
         }

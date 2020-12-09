@@ -30,7 +30,7 @@ public class finalize_order extends Activity {
     static int old_all_total;
     static int all_total;
 
-    String personal_preferances;
+    String personal_preferences;
     Object oo;
     String fin_order_string="";
     public String S;
@@ -232,7 +232,7 @@ public class finalize_order extends Activity {
 
     EditText Ed= (EditText) findViewById(R.id.personalp);
 
-    personal_preferances=Ed.getText().toString();
+    personal_preferences=Ed.getText().toString();
 
     final Object o = this;
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -241,10 +241,10 @@ public class finalize_order extends Activity {
             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                       messsage = "Renting Details: \n"
-                              + "Name: " + SlimpleTextClientActivity.tablex
+                              + "Name: " + SlimpleTextClientActivity.name
                               + " Renting: \n" + fin_order_string
                               + "\nTotal: ₱" + Integer.toString(all_total)
-                              + "\nAdditional Notes" +personal_preferances;
+                              + "\nAdditional Notes" +personal_preferences;
                         ; // get the text message on the text field
                         // messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total);
                         SendMessage sendMessageTask = new SendMessage();
@@ -253,7 +253,7 @@ public class finalize_order extends Activity {
 
                         //Get the SmsManager instance and call the sendTextMessage method to send message
                         PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, nextact,0);
-                            String msg = messsage.toString();
+                            String msg = messsage;
                             String no = new editPhoneNumber().num;
                             SmsManager sms=SmsManager.getDefault();
                             sms.sendTextMessage(no, null, msg, pi,null);

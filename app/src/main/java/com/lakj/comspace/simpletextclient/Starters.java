@@ -161,7 +161,7 @@ public class Starters extends Activity {
             {
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage("Are you sure you don't want to place another order?")
+                builder.setMessage("Are you sure you would to rent this car?")
                         .setCancelable(false)
                         .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
@@ -182,7 +182,7 @@ public class Starters extends Activity {
 
             else{
                 Toast.makeText(getApplicationContext(),
-                        "Please select your order", Toast.LENGTH_SHORT).show();
+                        "Please select a car", Toast.LENGTH_SHORT).show();
             }
         }
     }
