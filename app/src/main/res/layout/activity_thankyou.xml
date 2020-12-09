@@ -25,20 +25,26 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THANK YOU , Your order will be served soon :)"
+        android:text="THANK YOU for Renting with us, Please wait for the sms confirmation and response."
         android:textColor="#fff"
+        android:gravity="center"
         android:layout_marginTop="103dp"
         android:id="@+id/textView9"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#fff"
-        android:text="If you want to order anything else click menu"
-        android:layout_above="@+id/button11"
-        android:layout_alignEnd="@+id/textView9"
-        android:layout_marginBottom="49dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/button11"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                android:layout_marginEnd="40dp"
+                android:layout_marginBottom="40dp"
+                android:text="If you want to rent more cars click menu"
+                android:textColor="#fff" />
 
     <Button
         android:onClick="main_menu"

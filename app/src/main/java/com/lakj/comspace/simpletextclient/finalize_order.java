@@ -54,14 +54,13 @@ public class finalize_order extends Activity {
 
     public void show_Order() {
         if (Dessert.chocolate_ice_cream > 0) {
-            fin_order_string = fin_order_string + "chocolate ice cream - " + String.valueOf(Dessert.chocolate_ice_cream) + "\n";
+            fin_order_string = fin_order_string + "Honda City - for " + String.valueOf(Dessert.chocolate_ice_cream) + " Hours" + "\n";
         }
         if (Dessert.vanilla_ice_cream > 0) {
-            fin_order_string = fin_order_string + "vanilla ice cream - " + String.valueOf(Dessert.vanilla_ice_cream) + "\n";
+            fin_order_string = fin_order_string + "Honda Civic - for " + String.valueOf(Dessert.vanilla_ice_cream) + " Hours" + "\n";
         }
-
         if (Dessert.strawberry_ice_cream > 0) {
-            fin_order_string = fin_order_string + "strawberry ice cream - " + String.valueOf(Dessert.strawberry_ice_cream) + "\n";
+            fin_order_string = fin_order_string + "Honda BR-V - for " + String.valueOf(Dessert.strawberry_ice_cream) + " Hours" + "\n";
         }
         if (Dessert.falooda > 0) {
             fin_order_string = fin_order_string + "falooda - " + String.valueOf(Dessert.falooda) + "\n";
@@ -87,13 +86,13 @@ public class finalize_order extends Activity {
             fin_order_string = fin_order_string + "dutch almond - " + String.valueOf(Dessert.dutch_almond) + "\n";
         }
         if (N_Veg.chicken_burger > 0) {
-            fin_order_string = fin_order_string + "chicken burger - " + String.valueOf(N_Veg.chicken_burger) + "\n";
+            fin_order_string = fin_order_string + "Hyundai Accent - for " + String.valueOf(N_Veg.chicken_burger) + " Hours" + "\n";
         }
         if (N_Veg.chicken_bbq_pizza > 0) {
-            fin_order_string = fin_order_string + "chicken bbq pizza - " + String.valueOf(N_Veg.chicken_bbq_pizza) + "\n";
+            fin_order_string = fin_order_string + "Hyundai Tucson - for " + String.valueOf(N_Veg.chicken_bbq_pizza) + " Hours" + "\n";
         }
         if (N_Veg.chicken_tikka > 0) {
-            fin_order_string = fin_order_string + "chicken tikka - " + String.valueOf(N_Veg.chicken_tikka) + "\n";
+            fin_order_string = fin_order_string + "Hyundai Venue - for " + String.valueOf(N_Veg.chicken_tikka) + " Hours" + "\n";
         }
         if (N_Veg.fried_fish_rice > 0) {
             fin_order_string = fin_order_string + "fried fish rice - " + String.valueOf(N_Veg.fried_fish_rice) + "\n";
@@ -120,17 +119,17 @@ public class finalize_order extends Activity {
         }
 
         if (Veg.roti > 0) {
-            fin_order_string = fin_order_string + "roti - " + String.valueOf(Veg.roti) + "\n";
+            fin_order_string = fin_order_string + "Nissan Almera - for " + String.valueOf(Veg.roti) + " Hours" + "\n";
         }
         if (Veg.butter_roti > 0) {
-            fin_order_string = fin_order_string + "butter roti - " + String.valueOf(Veg.butter_roti) + "\n";
+            fin_order_string = fin_order_string + "Nissan Navara - for " + String.valueOf(Veg.butter_roti) + " Hours" + "\n";
         }
         if (Veg.paneer_tikka > 0) {
-            fin_order_string = fin_order_string + "paneer tikka - " + String.valueOf(Veg.paneer_tikka) + "\n";
+            fin_order_string = fin_order_string + "Nissan Terra - for " + String.valueOf(Veg.paneer_tikka) + " Hours" + "\n";
         }
 
         if (Veg.veg_pulao > 0) {
-            fin_order_string = fin_order_string + "veg pulao - " + String.valueOf(Veg.veg_pulao) + "\n";
+            fin_order_string = fin_order_string + "veg pulao - " + String.valueOf(Veg.veg_pulao) + " Hours" + "\n";
         }
         if (Veg.mutter_paneer> 0) {
             fin_order_string = fin_order_string + "mutter paneer - " + String.valueOf(Veg.mutter_paneer) + "\n";
@@ -153,13 +152,13 @@ public class finalize_order extends Activity {
             fin_order_string = fin_order_string + "paneer kofta - " + String.valueOf(Veg.paneer_kofta) + "\n";
         }
         if (Starters.veg_crispy > 0) {
-            fin_order_string = fin_order_string + "veg crispy - " + String.valueOf(Starters.veg_crispy) + "\n";
+            fin_order_string = fin_order_string + "Toyota Vios - for " + String.valueOf(Starters.veg_crispy) + " Hours" + "\n";
         }
         if (Starters.chicken_crispy > 0) {
-            fin_order_string = fin_order_string + "chicken crispy - " + String.valueOf(Starters.chicken_crispy) + "\n";
+            fin_order_string = fin_order_string + "Toyota Wigo - for " + String.valueOf(Starters.chicken_crispy) + " Hours" + "\n";
         }
         if (Starters.paneer_chilly > 0) {
-            fin_order_string = fin_order_string + "paneer chilly - " + String.valueOf(Starters.paneer_chilly) + "\n";
+            fin_order_string = fin_order_string + "Toyota Avanza - for " + String.valueOf(Starters.paneer_chilly) + " Hours" + "\n";
         }
         if (Starters.masala_papad > 0) {
             fin_order_string = fin_order_string + "masala papad - " + String.valueOf(Starters.masala_papad) + "\n";
@@ -237,13 +236,13 @@ public class finalize_order extends Activity {
 
     final Object o = this;
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    builder.setMessage("Are you sure you want to confirm this order?")
+    builder.setMessage("Are you sure you want to confirm this rent?")
             .setCancelable(false)
             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                      messsage = "Order Details: \n"
-                              + "Table #: " + SlimpleTextClientActivity.tablex
-                              + " Orders: \n" + fin_order_string
+                      messsage = "Renting Details: \n"
+                              + "Name: " + SlimpleTextClientActivity.tablex
+                              + " Renting: \n" + fin_order_string
                               + "\nTotal: ₱" + Integer.toString(all_total)
                               + "\nAdditional Notes" +personal_preferances;
                         ; // get the text message on the text field

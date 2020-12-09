@@ -22,9 +22,9 @@
             android:layout_height="wrap_content">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Veg Items"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:background="@mipmap/nissa"
         android:textColor="#fff"
         android:textStyle="bold"
         android:textSize="40sp"
@@ -48,25 +48,106 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="320dp"
                         android:padding="5dp">
 
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="250dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/n_almera" />
+
                         <TextView
+                            android:id="@+id/prod_1_tittle"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView2"
                             android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Roti (₱20)"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Nissan Almera"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/prod_1_tittle"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:text="No. of seats: 5"
                             android:textColor="#fff"
                             android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt2"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Fuel Type: Gasoline"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt3"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Transmission: Manual | Automatic"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt4"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Max Output: 99 HP @ 6,000 rpm"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt56"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt5"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Wheel Size: 14 in - 15 in"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="Rent: ₱75 per Hour"
+                            android:textColor="#fff"
+                            android:textSize="18sp" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
                             android:layout_gravity="right"
+                            android:layout_marginBottom="15dp"
                             android:orientation="horizontal">
 
                             <Button
@@ -108,19 +189,98 @@
                     <RelativeLayout
 
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="320dp"
                         android:padding="5dp">
 
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="250dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/n_navarra" />
+
                         <TextView
+                            android:id="@+id/prod_1_tittle2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView3"
                             android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Butter Roti(₱25)"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Nissan Navara"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/txt22"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/prod_1_tittle2"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:text="No. of seats: 5"
                             android:textColor="#fff"
                             android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt22"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Fuel Type: Diesel"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt32"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Transmission: Manual | Automatic"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt42"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Max Output: 190 HP @ 3,600 rpm"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt55"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt52"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Body Type: Pickup Truck"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt62"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="Rent: ₱95 per Hour"
+                            android:textColor="#fff"
+                            android:textSize="18sp" />
 
 
                         <LinearLayout
@@ -128,6 +288,8 @@
 
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginBottom="15dp"
                             android:orientation="horizontal">
 
 
@@ -169,25 +331,106 @@
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="320dp"
                         android:padding="5dp">
 
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="250dp"
+                            android:layout_height="140dp"
+                            android:src="@drawable/n_terra" />
+
                         <TextView
+                            android:id="@+id/prod_1_tittle3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
+                            android:layout_below="@+id/imageView4"
                             android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Paneer Tikka(₱180)"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Nissan Terra"
+                            android:textColor="#fff"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/txt23"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/prod_1_tittle3"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="5dp"
+                            android:text="No. of seats: 7"
                             android:textColor="#fff"
                             android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt33"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt23"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Fuel Type: Diesel"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt43"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt33"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Transmission: Manual | Automatic"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt53"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt43"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Max Output: 190 HP @ 3,600 rpm"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt54"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/txt53"
+                            android:layout_alignParentLeft="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginTop="1dp"
+                            android:text="Wheel Size: 17 in - 18 in"
+                            android:textColor="#fff"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/txt63"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="0dp"
+                            android:layout_marginBottom="15dp"
+                            android:text="Rent: ₱150 per Hour"
+                            android:textColor="#fff"
+                            android:textSize="18sp" />
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
                             android:layout_gravity="right"
+                            android:layout_marginBottom="15dp"
                             android:orientation="horizontal">
 
                             <Button
@@ -225,414 +468,6 @@
 
                     </RelativeLayout>
 
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Veg Pulao(₱200)"
-                            android:textColor="#fff"
-                            android:textSize="15sp" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="right"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:id="@+id/cheesesandwich_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="veg_pulao_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-                                android:id="@+id/veg_pulao_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/fried_fish_dec"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="veg_pulao_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Mutter Paneer(₱200)"
-                            android:textColor="#fff"
-                            android:textSize="14sp" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:id="@+id/plainpizza_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="mutter_paneer_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-                                android:id="@+id/mutter_paneer_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/plainpizza_decid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="mutter_paneer_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Veg Noodles(₱100)"
-                            android:textColor="#fff"
-                            android:textSize="14sp" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:orientation="horizontal"
-
-                            >
-
-                            <Button
-                                android:id="@+id/cheesepizza_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="veg_noodles_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-                                android:id="@+id/veg_noodles_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/cheesepizza_decid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="veg_noodles_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Veg fried Rice(₱120)"
-                            android:textColor="#fff"
-                            android:textSize="14sp" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:layout_gravity="right"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:id="@+id/panpizza_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="veg_fried_rice_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-
-                                android:id="@+id/veg_fried_rice_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/panpizza_decid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="veg_fried_rice_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Veg Burger (₱40)"
-                            android:textColor="#fff"
-                            android:textSize="14sp" />
-
-                        <LinearLayout
-
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:id="@+id/vegburger_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="veg_burger_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-
-                                android:id="@+id/veg_burger_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/vegburger_decid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="veg_burger_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Veg Biryani(₱150)"
-                            android:textColor="#fff"
-                            android:textSize="14sp" />
-
-                        <LinearLayout
-
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:id="@+id/chickenburger_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="veg_biryani_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-                                android:id="@+id/veg_biryani_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/chickenburger_decid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="veg_biryani_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-                        </LinearLayout>
-
-                    </RelativeLayout>
-
-
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp">
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentStart="true"
-                            android:layout_alignParentLeft="true"
-                            android:layout_alignParentBottom="true"
-                            android:padding="10dp"
-                            android:text="Paneer Kofta(₱150)"
-                            android:textColor="#fff"
-                            android:textSize="14sp" />
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            android:orientation="horizontal">
-
-                            <Button
-                                android:id="@+id/paneerroll_incid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#00E676"
-                                android:onClick="paneer_kofta_inc"
-                                android:text="+"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <TextView
-                                android:id="@+id/paneer_kofta_order"
-                                android:layout_width="34dp"
-                                android:layout_height="wrap_content"
-                                android:padding="3dp"
-                                android:paddingBottom="10dp"
-                                android:text="__"
-                                android:textAlignment="center"
-                                android:textColor="#fff"
-                                android:textSize="25sp" />
-
-                            <Button
-                                android:id="@+id/paneerroll_decid"
-                                android:layout_width="40dp"
-                                android:layout_height="30dp"
-                                android:background="#F44336"
-                                android:onClick="paneer_kofta_dec"
-                                android:text="-"
-                                android:textColor="#fff"
-                                android:textSize="25sp"
-                                android:textStyle="bold" />
-
-                        </LinearLayout>
-
-                    </RelativeLayout>
 
                 </LinearLayout>
             </ScrollView>
@@ -663,7 +498,7 @@
                 android:layout_marginEnd="66dp"
                 android:background="#1DE9B6"
                 android:onClick="fin_ord"
-                android:text="Proceed" />
+                android:text="Book Now" />
 
             <TextView
                 android:id="@+id/veg_total_id"

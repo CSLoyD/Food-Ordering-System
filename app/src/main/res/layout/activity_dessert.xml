@@ -25,14 +25,12 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="125dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Desserts"
-        android:textColor="#fff"
-        android:textStyle="bold"
         android:textSize="40dp"
+        android:background="@mipmap/hond"
         />
 
     <ScrollView
@@ -52,25 +50,94 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="320dp"
                 android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/h_city" />
+
                 <TextView
+                    android:id="@+id/prod_1_tittle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView2"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Chocolate Ice cream(₱80)"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Honda City"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prod_1_tittle"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of seats: 5"
                     android:textColor="#fff"
                     android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Fuel Type: Gasoline"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Transmission: Manual | CVT"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Max Output: 119 HP @ 6,600 rpm "
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Rent: ₱65 per Hour"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_gravity="right"
+                    android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
 
                     <Button
@@ -81,8 +148,7 @@
                         android:onClick="chocolate_ice_cream_inc"
                         android:text="+"
                         android:textColor="#fff"
-                        android:textSize="25sp"
-                        />
+                        android:textSize="25sp" />
 
                     <TextView
                         android:id="@+id/choco_ice_cream_order"
@@ -113,20 +179,86 @@
             <RelativeLayout
 
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="320dp"
                 android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/h_civic" />
+
                 <TextView
+                    android:id="@+id/prod_1_tittle2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Honda Civic"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prod_1_tittle2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of seats: 5"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt22"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Fuel Type: Gasoline"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt32"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Transmission: CVT"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt42"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Max Output: 171 HP @ 5,500 rpm"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Vannila Ice cream (₱70)"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Rent: ₱87 per Hour"
                     android:textColor="#fff"
-                    android:textSize="14sp"
-                     />
+                    android:textSize="18sp" />
 
 
                 <LinearLayout
@@ -134,6 +266,8 @@
 
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
 
 
@@ -145,8 +279,7 @@
                         android:onClick="vanilla_ice_cream_inc"
                         android:text="+"
                         android:textColor="#fff"
-                        android:textSize="25sp"
-                         />
+                        android:textSize="25sp" />
 
                     <TextView
                         android:id="@+id/vannila_ice_cream_order"
@@ -176,26 +309,106 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="320dp"
                 android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/h_brv" />
+
                 <TextView
+                    android:id="@+id/prod_1_tittle3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageView4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Honda BR-V"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prod_1_tittle3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of seats: 7"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt23"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Fuel Type: Gasoline"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt33"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Transmission: CVT"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt43"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Max Output: 120 HP @ 6,600 rpm"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt53"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Wheel Size: 16 in"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Strawberry Ice cream(₱75)"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Rent: ₱70 per Hour"
                     android:textColor="#fff"
-                    android:textSize="13sp"
-                     />
+                    android:textSize="18sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_gravity="right"
+                    android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
 
                     <Button
@@ -206,8 +419,7 @@
                         android:onClick="strawberry_ice_cream_inc"
                         android:text="+"
                         android:textColor="#fff"
-                        android:textSize="25sp"
-                         />
+                        android:textSize="25sp" />
 
                     <TextView
                         android:id="@+id/Strawberry_ice_cream_order"
@@ -234,426 +446,6 @@
 
             </RelativeLayout>
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Falooda (₱150)"
-                    android:textColor="#ffff"
-                    android:textSize="14sp"
-                     />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_gravity="right"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/cheesesandwich_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="falooda_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-                        android:id="@+id/falooda_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/fried_fish_dec"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="falooda_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-
-                    android:padding="10dp"
-                    android:text="Brownie Fudge(₱120)"
-                    android:textColor="#fff"
-                    android:textSize="14sp"
-                     />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/plainpizza_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="brownie_fudge_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-                        android:id="@+id/brownie_fudge_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/plainpizza_decid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="brownie_fudge_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Alpine Chocoloate(₱150)"
-                    android:textColor="#ffff"
-                    android:textSize="14sp"
-                     />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:orientation="horizontal"
-
-                    >
-
-                    <Button
-                        android:id="@+id/cheesepizza_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="alpine_chocolate_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-                        android:id="@+id/alpine_chocolate_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/cheesepizza_decid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="alpine_chocolate_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Devil's Delite(₱100)"
-                    android:textColor="#fff"
-                    android:textSize="14sp"
-                     />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:layout_gravity="right"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/panpizza_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="devils_delight_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-
-                        android:id="@+id/devils_delite_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/panpizza_decid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="devils_delight_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Black Forest(₱80)"
-                    android:textColor="#fff"
-                    android:textSize="14sp"
-                     />
-
-                <LinearLayout
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/vegburger_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="black_forest_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-                        android:id="@+id/black_forest_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/vegburger_decid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="black_forest_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:padding="10dp"
-                    android:text="Chocolate Lava(₱180)"
-                    android:textColor="#ffff"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
-
-                <LinearLayout
-
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/chickenburger_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="chocolate_lava_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-                        android:id="@+id/choco_lava_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/chickenburger_decid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="chocolate_lava_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
-
-
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentLeft="true"
-                    android:layout_alignParentBottom="true"
-                    android:padding="10dp"
-                    android:text="Dutch almond(₱120)"
-                    android:textColor="#fff"
-                    android:textSize="14sp"
-                     />
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentRight="true"
-                    android:orientation="horizontal">
-
-                    <Button
-                        android:id="@+id/paneerroll_incid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#00E676"
-                        android:onClick="dutch_almond_inc"
-                        android:text="+"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                         />
-
-                    <TextView
-                        android:id="@+id/dutch_almond_order"
-                        android:layout_width="34dp"
-                        android:layout_height="wrap_content"
-                        android:padding="3dp"
-                        android:paddingBottom="10dp"
-                        android:text="__"
-                        android:textAlignment="center"
-                        android:textColor="#ffff"
-                        android:textSize="25sp" />
-
-                    <Button
-                        android:id="@+id/paneerroll_decid"
-                        android:layout_width="40dp"
-                        android:layout_height="30dp"
-                        android:background="#F44336"
-                        android:onClick="dutch_almond_dec"
-                        android:text="-"
-                        android:textColor="#ffff"
-                        android:textSize="25sp"
-                        android:textStyle="bold" />
-                </LinearLayout>
-
-            </RelativeLayout>
 
         </LinearLayout>
     </ScrollView>
@@ -684,7 +476,7 @@
         android:layout_marginEnd="66dp"
         android:background="#1DE9B6"
         android:onClick="fin_ord"
-        android:text="Proceed" />
+        android:text="Book Now" />
 
 
             <TextView

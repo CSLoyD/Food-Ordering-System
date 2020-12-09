@@ -90,140 +90,10 @@ public class Veg extends Activity {
         }
     }
 
-    public void veg_pulao_inc(View view){
-        veg_pulao=inc(veg_pulao);
-        TextView tv = (TextView) findViewById(R.id.veg_pulao_order);
-        tv.setText("" + veg_pulao);
-        total_cal();
-    }
-    public void veg_pulao_dec(View view) {
-        if (veg_pulao>= 0) {
-            veg_pulao= dec(veg_pulao);
-            TextView tv = (TextView) findViewById(R.id.veg_pulao_order);
-            if(veg_pulao>0) tv.setText("" + veg_pulao);
-            else tv.setText("__");
-
-            total_cal();
-        }
-    }
-
-    public void mutter_paneer_inc(View view){
-        mutter_paneer=inc(mutter_paneer);
-        TextView tv = (TextView) findViewById(R.id.mutter_paneer_order);
-        tv.setText("" + mutter_paneer);
-
-        total_cal();
-    }
-    public void mutter_paneer_dec(View view) {
-        if (mutter_paneer>= 0) {
-            mutter_paneer= dec(mutter_paneer);
-            TextView tv = (TextView) findViewById(R.id.mutter_paneer_order);
-            if(mutter_paneer>0) tv.setText("" + mutter_paneer);
-            else tv.setText("__");
-
-            total_cal();
-        }
-    }
-
-    public void veg_noodles_inc(View view){
-        veg_noodles=inc(veg_noodles);
-        TextView tv = (TextView) findViewById(R.id.veg_noodles_order);
-        tv.setText("" + veg_noodles);
-
-        total_cal();
-    }
-    public void veg_noodles_dec(View view) {
-        if (veg_noodles>= 0) {
-            veg_noodles= dec(veg_noodles);
-            TextView tv = (TextView) findViewById(R.id.veg_noodles_order);
-            if(veg_noodles>0) tv.setText("" + veg_noodles);
-            else tv.setText("__");
-
-            total_cal();
-        }
-    }
-
-
-    public void veg_fried_rice_inc(View view){
-        veg_fried_rice=inc(veg_fried_rice);
-        TextView tv = (TextView) findViewById(R.id.veg_fried_rice_order);
-        tv.setText("" + veg_fried_rice);
-        total_cal();
-    }
-    public void veg_fried_rice_dec(View view) {
-        if (veg_fried_rice>= 0) {
-            veg_fried_rice= dec(veg_fried_rice);
-            TextView tv = (TextView) findViewById(R.id.veg_fried_rice_order);
-            if(veg_fried_rice>0) tv.setText("" + veg_fried_rice);
-            else tv.setText("__");
-
-            total_cal();
-        }
-    }
-
-
-    public void veg_burger_inc(View view){
-        veg_burger=inc(veg_burger);
-        TextView tv = (TextView) findViewById(R.id.veg_burger_order);
-        tv.setText("" + veg_burger);
-
-        total_cal();
-    }
-    public void veg_burger_dec(View view) {
-        if (veg_burger>= 0) {
-            veg_burger= dec(veg_burger);
-            TextView tv = (TextView) findViewById(R.id.veg_burger_order);
-            if(veg_burger>0) tv.setText("" + veg_burger);
-            else tv.setText("__");
-
-            total_cal();
-        }
-    }
-
-
-    public void veg_biryani_inc(View view){
-        veg_biryani=inc(veg_biryani);
-        TextView tv = (TextView) findViewById(R.id.veg_biryani_order);
-        tv.setText("" + veg_biryani);
-
-        total_cal();
-    }
-    public void veg_biryani_dec(View view) {
-        if (veg_biryani>= 0) {
-            veg_biryani= dec(veg_biryani);
-            TextView tv = (TextView) findViewById(R.id.veg_biryani_order);
-            if(veg_biryani>0) tv.setText("" + veg_biryani);
-            else tv.setText("__");
-
-            total_cal();
-            }
-    }
-
-
-
-    public void paneer_kofta_inc(View view){
-        paneer_kofta=inc(paneer_kofta);
-        TextView tv = (TextView) findViewById(R.id.paneer_kofta_order);
-        tv.setText("" + paneer_kofta);
-
-        total_cal();
-    }
-    public void paneer_kofta_dec(View view) {
-        if (paneer_kofta>= 0) {
-            paneer_kofta= dec(paneer_kofta);
-            TextView tv = (TextView) findViewById(R.id.paneer_kofta_order);
-            if(paneer_kofta>0) tv.setText("" + paneer_kofta);
-            else tv.setText("__");
-
-            total_cal();
-        }
-    }
-
-
 
 
     public void total_cal(){
-        total_veg=roti*(20)+butter_roti*(25)+paneer_tikka*(180)+veg_pulao*(200)+mutter_paneer*(200)+veg_noodles*(100)+veg_fried_rice*(120)+veg_burger*(40)+veg_biryani*(150)+paneer_kofta*(150);
+        total_veg=roti*(75)+butter_roti*(95)+paneer_tikka*(150)+veg_pulao*(200)+mutter_paneer*(200)+veg_noodles*(100)+veg_fried_rice*(120)+veg_burger*(40)+veg_biryani*(150)+paneer_kofta*(150);
         finalize_order.all_total=Starters.starters_total+Veg.total_veg+N_Veg.n_veg_total+Dessert.dessert_total;
 
         if (finalize_order.all_total > 0) {
@@ -272,35 +142,6 @@ public class Veg extends Activity {
             if(paneer_tikka>0) {
                 TextView tv = (TextView) findViewById(R.id.paneer_tikka_order);
                 tv.setText("" + paneer_tikka);
-            }
-            if(veg_pulao>0) {
-                TextView tv = (TextView) findViewById(R.id.veg_pulao_order);
-                tv.setText("" + veg_pulao);
-            }
-            if(mutter_paneer>0) {
-                TextView tv = (TextView) findViewById(R.id.mutter_paneer_order);
-                tv.setText("" + mutter_paneer);
-            }
-            if(veg_noodles>0) {
-                TextView tv = (TextView) findViewById(R.id.veg_noodles_order);
-                tv.setText("" + veg_noodles);
-            }
-            if(veg_fried_rice>0) {
-                TextView tv = (TextView) findViewById(R.id.veg_fried_rice_order);
-                tv.setText("" + veg_fried_rice);
-            }
-            if(veg_burger>0) {
-                TextView tv = (TextView) findViewById(R.id.veg_burger_order);
-                tv.setText("" + veg_burger);
-            }
-
-            if(veg_biryani>0) {
-                TextView tv = (TextView) findViewById(R.id.veg_biryani_order);
-                tv.setText("" + veg_biryani);
-            }
-            if(paneer_kofta>0) {
-                TextView tv = (TextView) findViewById(R.id.paneer_kofta_order);
-                tv.setText("" + paneer_kofta);
             }
         }
 

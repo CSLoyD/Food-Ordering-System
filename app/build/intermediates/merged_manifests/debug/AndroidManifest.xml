@@ -23,8 +23,9 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/applogo"
-        android:label="@string/app_name"
+        android:icon="@mipmap/logo"
+        android:label="Car Rental System"
+        android:testOnly="true"
         android:theme="@android:style/Theme.NoTitleBar" >
         <activity
             android:name="com.lakj.comspace.simpletextclient.SlimpleTextClientActivity"
@@ -32,7 +33,7 @@
         </activity>
         <activity
             android:name="com.lakj.comspace.simpletextclient.VirtualWaitress"
-            android:label="Food Ordering System" >
+            android:label="Car Rental System" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
