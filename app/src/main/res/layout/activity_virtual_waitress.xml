@@ -29,17 +29,17 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentBottom="true"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="140dp"
-                android:layout_marginBottom="16dp"
+                android:layout_marginStart="-4dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="154dp"
+                android:layout_marginBottom="20dp"
                 android:gravity="center"
                 android:text="Welcome to Car Rental System"
                 android:textColor="#fff"
                 android:textSize="35dp"
                 android:textStyle="bold" />
 
-</RelativeLayout>
+        </RelativeLayout>
 
     </ScrollView>
 </RelativeLayout>
