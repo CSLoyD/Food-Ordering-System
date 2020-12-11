@@ -5,98 +5,101 @@
 5    android:versionName="2.0" >
 6
 7    <uses-sdk
-7-->D:\New folder\app\src\main\AndroidManifest.xml:9:5-47
+7-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:6:5-47
 8        android:minSdkVersion="19"
-8-->D:\New folder\app\src\main\AndroidManifest.xml:9:5-47
-9        android:targetSdkVersion="23" />
-9-->D:\New folder\app\src\main\AndroidManifest.xml:9:15-44
+8-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:6:5-47
+9        android:targetSdkVersion="30" />
+9-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:6:15-44
 10
-11    <uses-permission android:name="android.permission.SEND_SMS" />
-11-->D:\New folder\app\src\main\AndroidManifest.xml:7:5-66
-11-->D:\New folder\app\src\main\AndroidManifest.xml:7:22-64
-12    <uses-permission android:name="android.permission.INTERNET" />
-12-->D:\New folder\app\src\main\AndroidManifest.xml:11:5-67
-12-->D:\New folder\app\src\main\AndroidManifest.xml:11:22-64
-13    <uses-permission
-14        name="android.permission.WRITE_EXTERNAL_STORAGE"
-15        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16    <uses-permission
-17        name="android.permission.READ_PHONE_STATE"
-18        android:name="android.permission.READ_PHONE_STATE" />
-19    <uses-permission
-20        name="android.permission.READ_EXTERNAL_STORAGE"
-21        android:name="android.permission.READ_EXTERNAL_STORAGE" />
-22
-23    <application
-23-->D:\New folder\app\src\main\AndroidManifest.xml:20:5-58:19
-24        android:allowBackup="true"
-24-->D:\New folder\app\src\main\AndroidManifest.xml:21:9-35
-25        android:debuggable="true"
-26        android:icon="@mipmap/logo"
-26-->D:\New folder\app\src\main\AndroidManifest.xml:22:9-36
-27        android:label="Car Rental System"
-27-->D:\New folder\app\src\main\AndroidManifest.xml:23:9-42
-28        android:testOnly="true"
-29        android:theme="@android:style/Theme.NoTitleBar" >
-29-->D:\New folder\app\src\main\AndroidManifest.xml:24:9-56
-30        <activity
-30-->D:\New folder\app\src\main\AndroidManifest.xml:25:9-29:20
-31            android:name="com.lakj.comspace.simpletextclient.SlimpleTextClientActivity"
-31-->D:\New folder\app\src\main\AndroidManifest.xml:26:13-54
-32            android:label="@string/app_name" >
-32-->D:\New folder\app\src\main\AndroidManifest.xml:27:13-45
-33        </activity>
-34        <activity
-34-->D:\New folder\app\src\main\AndroidManifest.xml:30:9-39:20
-35            android:name="com.lakj.comspace.simpletextclient.VirtualWaitress"
-35-->D:\New folder\app\src\main\AndroidManifest.xml:31:13-44
-36            android:label="Car Rental System" >
-36-->D:\New folder\app\src\main\AndroidManifest.xml:32:13-46
-37            <intent-filter>
-37-->D:\New folder\app\src\main\AndroidManifest.xml:33:13-37:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->D:\New folder\app\src\main\AndroidManifest.xml:34:17-69
-38-->D:\New folder\app\src\main\AndroidManifest.xml:34:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->D:\New folder\app\src\main\AndroidManifest.xml:36:17-77
-40-->D:\New folder\app\src\main\AndroidManifest.xml:36:27-74
-41            </intent-filter>
-42        </activity>
-43        <activity android:name="com.lakj.comspace.simpletextclient.Order_Type" >
-43-->D:\New folder\app\src\main\AndroidManifest.xml:40:9-41:20
-43-->D:\New folder\app\src\main\AndroidManifest.xml:40:19-45
-44        </activity>
-45        <activity android:name="com.lakj.comspace.simpletextclient.Starters" >
-45-->D:\New folder\app\src\main\AndroidManifest.xml:42:9-43:20
-45-->D:\New folder\app\src\main\AndroidManifest.xml:42:19-43
-46        </activity>
-47        <activity android:name="com.lakj.comspace.simpletextclient.Veg" >
-47-->D:\New folder\app\src\main\AndroidManifest.xml:44:9-45:20
-47-->D:\New folder\app\src\main\AndroidManifest.xml:44:19-38
-48        </activity>
-49        <activity android:name="com.lakj.comspace.simpletextclient.N_Veg" >
-49-->D:\New folder\app\src\main\AndroidManifest.xml:46:9-47:20
-49-->D:\New folder\app\src\main\AndroidManifest.xml:46:19-40
-50        </activity>
-51        <activity android:name="com.lakj.comspace.simpletextclient.Dessert" >
-51-->D:\New folder\app\src\main\AndroidManifest.xml:48:9-49:20
-51-->D:\New folder\app\src\main\AndroidManifest.xml:48:19-42
-52        </activity>
-53        <activity
-53-->D:\New folder\app\src\main\AndroidManifest.xml:50:9-53:20
-54            android:name="com.lakj.comspace.simpletextclient.finalize_order"
-54-->D:\New folder\app\src\main\AndroidManifest.xml:51:13-43
-55            android:label="@string/title_activity_finalize_order" >
-55-->D:\New folder\app\src\main\AndroidManifest.xml:52:13-66
-56        </activity>
-57        <activity
-57-->D:\New folder\app\src\main\AndroidManifest.xml:54:9-57:20
-58            android:name="com.lakj.comspace.simpletextclient.thankyou"
-58-->D:\New folder\app\src\main\AndroidManifest.xml:55:13-37
-59            android:label="@string/title_activity_thankyou" >
-59-->D:\New folder\app\src\main\AndroidManifest.xml:56:13-60
-60        </activity>
-61    </application>
-62
-63</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:7:5-67
+11-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.SEND_SMS" />
+12-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:8:5-66
+12-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+13-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:5-69
+13-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:9:22-67
+14    <uses-permission
+15        name="android.permission.WRITE_EXTERNAL_STORAGE"
+16        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17    <uses-permission
+18        name="android.permission.READ_PHONE_STATE"
+19        android:name="android.permission.READ_PHONE_STATE" />
+20    <uses-permission
+21        name="android.permission.READ_EXTERNAL_STORAGE"
+22        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+23
+24    <application
+24-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:18:5-56:19
+25        android:allowBackup="true"
+25-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:19:9-35
+26        android:debuggable="true"
+27        android:icon="@mipmap/logo"
+27-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:20:9-36
+28        android:label="Car Rental System"
+28-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:21:9-42
+29        android:testOnly="true"
+30        android:theme="@android:style/Theme.NoTitleBar" >
+30-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:22:9-56
+31        <activity
+31-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:23:9-27:20
+32            android:name="com.lakj.comspace.simpletextclient.SlimpleTextClientActivity"
+32-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:24:13-54
+33            android:label="@string/app_name" >
+33-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:25:13-45
+34        </activity>
+35        <activity
+35-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:28:9-37:20
+36            android:name="com.lakj.comspace.simpletextclient.VirtualWaitress"
+36-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:29:13-44
+37            android:label="Car Rental System" >
+37-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:30:13-46
+38            <intent-filter>
+38-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:31:13-35:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:32:17-69
+39-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:32:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:34:17-77
+41-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:34:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.lakj.comspace.simpletextclient.Order_Type" >
+44-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:38:9-39:20
+44-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:38:19-45
+45        </activity>
+46        <activity android:name="com.lakj.comspace.simpletextclient.Starters" >
+46-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:40:9-41:20
+46-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:40:19-43
+47        </activity>
+48        <activity android:name="com.lakj.comspace.simpletextclient.Veg" >
+48-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:42:9-43:20
+48-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:42:19-38
+49        </activity>
+50        <activity android:name="com.lakj.comspace.simpletextclient.N_Veg" >
+50-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:44:9-45:20
+50-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:44:19-40
+51        </activity>
+52        <activity android:name="com.lakj.comspace.simpletextclient.Dessert" >
+52-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:46:9-47:20
+52-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:46:19-42
+53        </activity>
+54        <activity
+54-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:48:9-51:20
+55            android:name="com.lakj.comspace.simpletextclient.finalize_order"
+55-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:49:13-43
+56            android:label="@string/title_activity_finalize_order" >
+56-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:50:13-66
+57        </activity>
+58        <activity
+58-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:52:9-55:20
+59            android:name="com.lakj.comspace.simpletextclient.thankyou"
+59-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:53:13-37
+60            android:label="@string/title_activity_thankyou" >
+60-->D:\Projects\Git Repos\Food-Ordering-System\app\src\main\AndroidManifest.xml:54:13-60
+61        </activity>
+62    </application>
+63
+64</manifest>

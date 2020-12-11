@@ -200,33 +200,7 @@ public class finalize_order extends Activity {
 
 
 
-    public class SendMessage extends AsyncTask<Void, Void, Void> {
-        BufferedReader bb;
-        Socket client;
-        PrintWriter printwriter;
 
-
-        @Override
-        protected Void doInBackground(Void... params) {
-            try {
-                client = new Socket("192.168.1.105", 4444); // connect to the server
-                printwriter = new PrintWriter(client.getOutputStream(), true);
-                bb=new BufferedReader(new InputStreamReader(client.getInputStream()));
-                printwriter.println(finalize_order.messsage); // write the message to output stream
-                printwriter.flush();
-                m1=bb.readLine();
-                //System.out.println("dd:"+m1);
-                //m1="hello";
-                bb.close();
-                client.close(); // closing the connection
-            } catch (UnknownHostException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            return null;
-        }
-    }
     public void send_ord(View v){
         order_string=fin_order_string;
 
@@ -234,7 +208,6 @@ public class finalize_order extends Activity {
 
     personal_preferences=Ed.getText().toString();
 
-    final Object o = this;
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
     builder.setMessage("Are you sure you want to confirm this rent?")
             .setCancelable(false)
@@ -245,19 +218,15 @@ public class finalize_order extends Activity {
                               + " Renting: \n" + fin_order_string
                               + "\nTotal: ₱" + Integer.toString(all_total)
                               + "\nAdditional Notes" +personal_preferences;
-                        ; // get the text message on the text field
-                        // messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total);
-                        //SendMessage sendMessageTask = new SendMessage();
-                        //sendMessageTask.execute();
-                        //Get the SmsManager instance and call the sendTextMessage method to send message
-                        Intent nextact = new Intent((finalize_order) o, thankyou.class);
-                        PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, nextact,0);
                         String msg = messsage;
-                        String no = new editPhoneNumber().num;
+                        String no = new editPhoneNumber().num.toString();
+
+                        //Get the SmsManager instance and call the sendTextMessage method to send message
+                        Intent intent=new Intent(getApplicationContext(),thankyou.class);
+                        PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, intent,0);
                         SmsManager sms=SmsManager.getDefault();
                         sms.sendTextMessage(no, null, msg, pi,null);
-                        startActivity(nextact);
-                        finish();
+
                 }
             })
             .setNegativeButton("No", new DialogInterface.OnClickListener() {

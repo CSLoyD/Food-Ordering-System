@@ -3,12 +3,10 @@
     package="com.lakj.comspace.simpletextclient"
     android:versionCode="1"
     android:versionName="2.0" >
-
-    <uses-permission android:name="android.permission.SEND_SMS"/>
-
     <uses-sdk android:targetSdkVersion="19" />
-
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
 
     <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         name="android.permission.WRITE_EXTERNAL_STORAGE" />
